@@ -1,0 +1,16 @@
+<?php
+	define("DB_SERVER","localhost");
+	#define("DB_USER","u2coding");
+	define("DB_USER","root");
+	define("DB_PWD","");
+	#define("DB_PWD","Firewall12!");
+	define("DB_NAME","SFYC");
+	define("USER_TABLE","users");
+	define("RELATION_TABLE","relation");
+	define("PET_TABLE","pet");
+	define("PHOTO_TABLE","photo");
+	define("TOPIC_TABLE","topic");
+	define("UPLOAD_PHOTO_MAX",9);
+	define("UPLOAD_PHOTO_ID_PREFIX","hide_uploadpicture");
+	define("UNIQUE_TOPIC_ID_PREFIX","sfyc");
+?>

@@ -1,0 +1,3 @@
+php function 使用规则
+php function 需要写在与php 显示页面不同的文件里,
+php function 需要在class 里declare, 使用时在php显示文件中；new class来create php class object

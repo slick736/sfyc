@@ -1,0 +1,13 @@
+php post
+1.the element inside php form must have a name!
+2. only the value of the element will be posted
+correct ex:
+<form method="post" id="topic_form" action="myspace.php" >
+<input type="text" name="testform">
+<input type="submit" value="topic_form_submit"/>
+</form>
+wrong ex:
+<form method="post" id="topic_form" action="myspace.php" >
+<input type="text">
+<input type="submit" value="topic_form_submit"/>
+</form>
